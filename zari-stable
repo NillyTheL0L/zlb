@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+cd && cd .local/share/ZariLess/ && python3 zariiless.py &
