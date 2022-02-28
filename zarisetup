@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+cd && echo setup started && echo installing dependences && sudo apt-get install python3 python3-pip figlet lolcat -y unzip && mkdir ~/.local/share/ZariLess/ && cd ~/.local/share/ZariLess/ && wget https://github.com/NillyTheL0L/zlb/raw/main/ZariLess.tar.gz && tar -xvf ZariLess.tar.gz && cd ZariLess && echo installing pip reqs && pip install -r pipreqs && cd .. && cd .. && cd .. && cd /usr/bin/ && sudo wget https://github.com/NillyTheL0L/zlb/raw/main/zari-stable && sudo chmod +x zari-stable && figlet Browser Installed! | lolcat && cd && zari-stable
